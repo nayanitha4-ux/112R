@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border = "">
+        <tr>
+            <th>Student_Id</th>
+            <th>Student_Name</th>
+            <th>Student_Age</th>
+            <th>Student_Gender</th>
+        </tr>
+        <tr>
+            <td>101</td>
+            <td>Ravi</td>
+            <td>23</td>
+            <td>Male</td>
+        </tr>
+        <tr>
+            <td>102</td>
+            <td>Ramya</td>
+            <td>23</td>
+            <td>Female</td>
+        </tr>
+        <tr>
+            <td>103</td>
+            <td>Sam</td>
+            <td>24</td>
+            <td>Male</td>
+        </tr>
+        <tr>
+            <td>104</td>
+            <td>Roopa</td>
+            <td>23</td>
+            <td>Female</td>
+        </tr>
+        <tr>
+            <td>105</td>
+            <td>Ram</td>
+            <td>23</td>
+            <td>Male</td>
+        </tr>
+    </table>
+</body>
+</html>
+<br>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border = "">
+        <tr>
+            <th>Student_Id</th>
+            <td>101</td><td>102</td><td>103</td><td>104</td><td>105</td>
+        </tr>
+        <tr>
+            <th>Student_Name</th>
+            <td>Ravi</td><td>Ramya</td><td>Sam</td><td>Roopa</td><td>Ram</td>
+        </tr>
+        <tr>
+            <th>Student_Age</th>
+            <td>23</td><td>23</td><td>24</td><td>23</td><td>23</td>
+        </tr>
+        <tr>
+            <th>Student_Gender</th>
+            <td>Male</td><td>Female</td><td>Male</td><td>Female</td><td>Male</td>
+        </tr>
+    </table>
+<br>
+
+    <table border = "">
+        <tr>
+            <th colspan="2">Full Name</th>
+            <th>Rating</th>
+        </tr>
+        <tr>
+            <td>Ravi</td>
+            <td>V</td>
+            <td>7.8</td>
+        </tr>
+        <tr>
+            <td>Ramya</td>
+            <td>Suresh</td>
+            <td>8</td>
+        </tr>
+        <tr>
+            <td>Sachin</td>
+            <td>Shekar</td>
+            <td>6.7</td>
+        </tr>
+        <tr>
+            <td>Smitha</td>
+            <td>R</td>
+            <td>9</td>
+        </tr>
+        <tr>
+            <td>Divya</td>
+            <td>D</td>
+            <td>9</td>
+        </tr>
+    </table>
+<br>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Table</title>
+    <style>
+        body {
+            font-family: "Times New Roman", serif;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 28px;
+            margin: 25px;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 800px;
+            margin: auto;
+            border: 4px solid gray;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 12px 5px;
+            text-align: center;
+            font-size: 14px;
+        }
+
+        th {
+            font-weight: bold;
+        }
+
+        .lunch {
+            font-weight: bold;
+            width: 75px;
+        }
+
+        .small {
+            font-size: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<h1>TIME TABLE</h1>
+
+<table>
+    <tr>
+        <th>Day/Period</th>
+        <th>I<br>9:30-10:20</th>
+        <th>II<br>10:20-11:10</th>
+        <th>III<br>11:10-12:00</th>
+        <th>12:00-12:40<br><span class="small">LUNCH</span></th>
+        <th>IV<br>12:40-1:30</th>
+        <th>V<br>1:30-2:20</th>
+        <th>VI<br>2:20-3:10</th>
+        <th>VII<br>3:10-4:00</th>
+    </tr>
+
+    <tr>
+        <th>Monday</th>
+        <td>Eng</td>
+        <td>Mat</td>
+        <td>Che</td>
+        <td rowspan="6" class="lunch">L<br>U<br>N<br>C<br>H</td>
+        <td colspan="3">LAB</td>
+        <td>Phy</td>
+    </tr>
+
+    <tr>
+        <th>Tuesday</th>
+        <td colspan="3">LAB</td>
+        <td>Eng</td>
+        <td>Che</td>
+        <td>Mat</td>
+        <td>SPORTS</td>
+    </tr>
+    <tr>
+        <th>Wednesday</th>
+        <td>Mat</td>
+        <td>Phy</td>
+        <td>Eng</td>
+        <td>Che</td>
+        <td colspan="3">LIBRARY</td>
+    </tr>
+    <tr>
+        <th>Thursday</th>
+        <td>Phy</td>
+        <td>Eng</td>
+        <td>Che</td>
+        <td colspan="3">LAB</td>
+        <td>Mat</td>
+    </tr>
+    <tr>
+        <th>Friday</th>
+        <td colspan="3">LAB</td>
+        <td>Mat</td>
+        <td>Che</td>
+        <td>Eng</td>
+        <td>Phy</td>
+    </tr>
+    <tr>
+        <th>Saturday</th>
+        <td>Eng</td>
+        <td>Che</td>
+        <td>Mat</td>
+        <td colspan="3">SEMINAR</td>
+        <td>SPORTS</td>
+    </tr>
+</table>
+</body>
+</html>
+
